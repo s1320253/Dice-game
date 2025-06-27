@@ -15,6 +15,8 @@ total = dice1+dice2;
 printf("Die 1: %d\n",dice1);
 printf("Die 2; %d\n",dice2);
 printf("total value: %d\n",total);
-    
+
+if(total>7)printf("You won");
+else printf("You lost");
 return 0;
 }
