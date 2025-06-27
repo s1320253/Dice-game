@@ -6,7 +6,7 @@ int main(){
 int dice1,dice2,total;
 srand(time(NULL));
     
-printf("Rolling dice...\n");
+printf("Rolling dice...\n>");
     
 dice1 = rand() % 6+1;
 dice2 = rand() % 6+1;
